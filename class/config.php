@@ -3,7 +3,7 @@
 $_CONFIG = array();
 
 /* GENERAL SETTINGS */
-$_CONFIG['URL'] = "http://localhost:8080/palermo/";
+$_CONFIG['URL'] = "http://localhost:8080/palermo";
 
 /* DATABASE */
 $_CONFIG['DB_DB'] = "palermo";
