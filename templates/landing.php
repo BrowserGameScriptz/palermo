@@ -1,2 +1,5 @@
 
-    <h1>Mord in Palermo 1</h1>
+    <h1>Mord in Palermo </h1>
+
+
+<button type="button" class="btn btn-dark">Neues Spiel</button>
