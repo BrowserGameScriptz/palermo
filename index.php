@@ -15,11 +15,15 @@ if (!array_key_exists('p', $_GET)) {
 
 switch(intval($_GET['p'])) {
   case 2:
-    include "templates/aboutus.php";
+    include "templates/rules.php";
     break;
 
   case 3:
     include "templates/aboutus.php";
+    break;
+
+  case 4:
+    include "templates/impressum.php";
     break;
 
   default:
