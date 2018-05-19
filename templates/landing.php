@@ -12,9 +12,6 @@
     <h1>Mord in Palermo</h1>
   </div>
 
-
-  <a href="#menu">Menu</a>
-
   <label for="basic-url">Spielcode eingeben</label>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
