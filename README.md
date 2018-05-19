@@ -1,11 +1,16 @@
 # Mord in Palermo Browsergame
 
-beispiel
+Mord in Palermo ist ein Gesellschaftsspiel...
+
+
 # Ordner
 /assets - HTML, CSS, JS Assets
+/class - PHP Klassen
+/install - Installationszauberer
+/templates - HTML Templates
 
 # Wichtigste Dateien
-index.php
-webhook.php
+index.php - UI Script
+webhook.php - JS Webhook
 
 # Quickdoku

@@ -1,6 +1,6 @@
 <?php
 require "class/config.php";
-
+require "class/templates.php";
 
 $_PAGE['title'] = "Mord In Palermo";
 
