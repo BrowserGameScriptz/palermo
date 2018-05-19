@@ -22,9 +22,9 @@ switch(intval($_GET['p'])) {
     include "templates/aboutus.php";
     break;
 
-    case 4:
-      include "templates/impressum.php";
-      break;
+  case 4:
+    include "templates/impressum.php";
+    break;
 
   default:
     include "templates/landing.php";
