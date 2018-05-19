@@ -19,11 +19,25 @@
 
         <br><br>
 
-        <input type="text" class="form-control form-control-lg" id="basic-url" placeholder="Spielcode Eingeben">
+        <input oninput="inputOnChange()" type="text" class="form-control form-control-lg" id="input-gamecode" placeholder="Spielcode Eingeben">
 
         <br>
 
-        <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg">Neues Spiel</a>
+        <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg" id="button-gamecode">Neues Spiel</a>
+
+        <script>
+          function inputOnChange()
+          {
+            if ($('#input-gamecode').val().length > 0)
+            {
+              $('#button-gamecode').text("Spiel Beitreten");
+            }
+            else
+            {
+              $('#button-gamecode').text("Neues Spiel");
+            }
+          }
+        </script>
 
       </div>
     </div>
