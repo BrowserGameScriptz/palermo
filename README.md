@@ -2,7 +2,7 @@
 
 
 # Ordner
-
+/assets - HTML, CSS, JS Assets
 
 # Wichtigste Dateien
 index.php
