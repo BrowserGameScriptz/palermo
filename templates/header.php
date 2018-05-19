@@ -12,6 +12,14 @@
     <script src="<?= Template::getUrl("/assets/js/fontawesome-all.min.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/jquery-3.3.1.min.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/jquery.mmenu.all.js") ?>"></script>
+
+    <script>
+       $(document).ready(function( $ ) {
+          $("#menu").mmenu();
+       });
+    </script>
+
+
     <title><?= $_PAGE['title'] ?></title>
   </head>
   <body>
