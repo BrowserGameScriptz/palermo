@@ -16,15 +16,14 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 text-center">
 
-        <label for="basic-url">Your vanity URL</label>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-          </div>
-          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-        </div>
 
-        <a href="<?= Template::getUrl("/game.php") ?>" class="btn btn-dark btn-lg">Neues Spiel</a>
+        <br><br>
+
+        <input type="text" class="form-control form-control-lg" id="basic-url" placeholder="Spielcode Eingeben">
+
+        <br>
+
+        <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg">Neues Spiel</a>
 
       </div>
     </div>
