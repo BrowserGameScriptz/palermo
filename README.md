@@ -1,6 +1,6 @@
 # Mord in Palermo Browsergame
 
-
+beispiel
 # Ordner
 /assets - HTML, CSS, JS Assets
 
