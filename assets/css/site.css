@@ -1,3 +1,9 @@
+html, body {
+  font-size: 16px;
+  min-height: 100%;
+}
+
+
 h1 {
   font-size: 28px;
 }
@@ -5,11 +11,21 @@ h1 {
 #header {
   text-align: center;
   background-color: #dfdfdf;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 #header h1 {
   padding-top: 7px;
   padding-bottom: 10px;
+}
+
+#page {
+  padding-top: 70px;
+  min-height: 100%;
 }
 
 

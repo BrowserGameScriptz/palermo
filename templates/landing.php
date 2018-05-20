@@ -13,17 +13,20 @@
   </div>
 
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
-
-
-        <br><br>
-
-        <input oninput="inputOnChange()" type="text" class="form-control form-control-lg" id="input-gamecode" placeholder="Spielcode Eingeben">
 
         <br>
 
-        <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg" id="button-gamecode">Neues Spiel</a>
+        <div class="form-group">
+          <input oninput="inputOnChange()" type="text" class="form-control form-control-lg" id="input-gamecode" placeholder="Spielcode Eingeben">
+        </div>
+
+        <div class="form-group">
+          <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg" id="button-gamecode">Neues Spiel</a>
+        </div>
+
+        <small>Klicke auf Neues Spiel, um ein neues Spiel zu erstellen und anschließend deine Freunde einzuladen. Oder gib hier deinen Einladecode ein um einem Spiel beizutreten.</small>
 
         <script>
           function inputOnChange()
