@@ -6,6 +6,7 @@ $_PAGE['title'] = "Mord In Palermo";
 
 include "templates/header.php";
 include "templates/game.php";
+include "templates/game_menu.php";
 include "templates/footer.php";
 
  ?>

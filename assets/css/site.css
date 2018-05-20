@@ -35,9 +35,7 @@ h1 {
 .hamburger {
     display: inline-block;
     cursor: pointer;
-    float: left;
     padding-top: 5px;
-    padding-left: 7px;
 }
 
 .bar1, .bar2, .bar3 {
