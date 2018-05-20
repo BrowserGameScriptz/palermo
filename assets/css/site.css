@@ -23,6 +23,11 @@ h1 {
   padding-bottom: 5px;
 }
 
+#header a svg {
+  color: #202020;
+  margin-top: 8px;
+}
+
 #page {
   padding-top: 70px;
   min-height: 100%;
