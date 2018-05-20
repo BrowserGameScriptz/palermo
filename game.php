@@ -5,9 +5,8 @@ require "class/templates.php";
 $_PAGE['title'] = "Mord In Palermo";
 $_PAGE['player'] = array('Martin', 'Karim', 'Ferdi', 'Jan', 'Jörg');
 
-include "templates/header.php";
+include "templates/header_game.php";
 include "templates/game.php";
-include "templates/game_menu.php";
 include "templates/footer.php";
 
  ?>

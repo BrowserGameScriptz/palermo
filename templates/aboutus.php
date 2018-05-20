@@ -1,5 +1,5 @@
-<div id="page">
-  <div id="header">
+<div class="page">
+  <div class="header">
     <div class="container-fluid">
       <div class="row">
         <div class="col-2 text-left">

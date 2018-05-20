@@ -7,7 +7,7 @@ $_PAGE['title'] = "Mord In Palermo";
 
 
 
-include "templates/header.php";
+include "templates/header_site.php";
 
 if (!array_key_exists('p', $_GET)) {
   $_GET['p'] =0;

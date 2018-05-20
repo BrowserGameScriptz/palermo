@@ -1,5 +1,5 @@
-<div id="page">
-  <div id="header">
+<div class="page">
+  <div class="header">
     <div class="container-fluid">
       <div class="row">
         <div class="col-2 text-left">
@@ -10,7 +10,7 @@
           </div>
         </div>
 
-        <div class="col-8 text-center">
+        <div class="col-10 text-center">
           <h1>Mord in Palermo</h1>
         </div>
       </div>
