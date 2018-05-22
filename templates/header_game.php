@@ -20,6 +20,10 @@
           $("#menu").mmenu({
             offCanvas	: false
           }, {});
+
+          var api = $("#menu").data( "mmenu" );
+
+          api.openPanel( $("#dashboard") );
        });
     </script>
 
