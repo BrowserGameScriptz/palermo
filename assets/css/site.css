@@ -82,4 +82,10 @@ h1 {
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
+
+/* DASHBOARD */
+.dashb-poll {
+  cursor: pointer;
+}
+
 /* Messenger */
