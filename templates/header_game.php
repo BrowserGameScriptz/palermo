@@ -16,6 +16,7 @@
     <script src="<?= Template::getUrl("/assets/js/game.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/game_messages.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/game_dashboard.js") ?>"></script>
+    <script src="<?= Template::getUrl("/assets/js/chat_bubbles.js") ?>"></script>
 
     <script>
        $(document).ready(function( $ ) {

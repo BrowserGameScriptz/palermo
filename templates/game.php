@@ -14,4 +14,9 @@
   <div class="page" id="messages">
     <?php include "messages.php"; ?>
   </div>
+
+  <div class="page" id="chat-window">
+    <?php include "chat_window.php"; ?>
+  </div>
+
 </nav>
