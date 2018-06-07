@@ -7,7 +7,7 @@ var text_somebodyelse = "Hi";
 
 var system_message = "Das ist eine Systemnachricht";
 
-var html = '<div class=".chat-container-bubble-r">';
+var html = '<div class="chat-container-bubble-r">';
     html += '<h5> '+text_me+'</h5>';
     html += '</div>';
 
