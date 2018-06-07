@@ -166,3 +166,21 @@ label.mm-toggle {
 }
 
 /* Messenger */
+.chat-input {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.chat-container-bubble-r {
+  float:right;
+  padding-right:10px;
+}
+
+.chat-container-bubble-l {
+  float:left;
+  padding-left:10px;
+}
