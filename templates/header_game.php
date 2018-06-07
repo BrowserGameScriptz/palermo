@@ -14,7 +14,11 @@
     <script src="<?= Template::getUrl("/assets/js/jquery-3.3.1.min.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/jquery.mmenu.all.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/game.js") ?>"></script>
+<<<<<<< HEAD
     <script src="<?= Template::getUrl("/assets/js/game_messages.js") ?>"></script>
+=======
+    <script src="<?= Template::getUrl("/assets/js/game_dashboard.js") ?>"></script>
+>>>>>>> 5539fc9b028900e90f9193771f1f705ce3859e46
 
     <script>
        $(document).ready(function( $ ) {
