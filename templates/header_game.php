@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?= Template::getUrl("/assets/css/bootstrap.min.css") ?>">
     <link rel="stylesheet" href="<?= Template::getUrl("/assets/css/fa-svg-with-js.css") ?>">
     <link rel="stylesheet" href="<?= Template::getUrl("/assets/css/jquery.mmenu.all.css") ?>">
-    <link rel="stylesheet" href="<?= Template::getUrl("/assets/css/site.css") ?>">
+    <link rel="stylesheet" href="<?= Template::getUrl("/assets/css/site.css") ?>?v=1.1">
 
     <script src="<?= Template::getUrl("/assets/js/fontawesome-all.min.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/jquery-3.3.1.min.js") ?>"></script>
@@ -16,7 +16,7 @@
     <script src="<?= Template::getUrl("/assets/js/game.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/game_messages.js") ?>"></script>
     <script src="<?= Template::getUrl("/assets/js/game_dashboard.js") ?>"></script>
-    <script src="<?= Template::getUrl("/assets/js/chat_bubbles.js") ?>"></script>
+    <script src="<?= Template::getUrl("/assets/js/chat_bubbles.js") ?>?v=1.1"></script>
 
     <script>
        $(document).ready(function( $ ) {

@@ -176,11 +176,13 @@ label.mm-toggle {
 }
 
 .chat-container-bubble-r {
-  float:right;
+  text-align:right;
   padding-right:10px;
+  margin-bottom:10px;
 }
 
 .chat-container-bubble-l {
-  float:left;
+  text-align:left;
   padding-left:10px;
+  margin-bottom:10px;
 }
