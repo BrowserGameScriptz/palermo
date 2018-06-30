@@ -39,11 +39,20 @@
             if ($('#input-gamecode').val().length > 0)
             {
               $('#button-gamecode').text("Spiel Beitreten");
+              $('#button-gamecode').attr("href", "javascript:onEnterClick()");
             }
             else
             {
               $('#button-gamecode').text("Neues Spiel");
+              $('#button-gamecode').attr("href", "<?= Template::getUrl("/game.php") ?>");
             }
+          }
+
+
+
+          function onEnterClick() {
+            //send php enter request
+            alert("Du Hurensohn");
           }
         </script>
 

@@ -1,7 +1,11 @@
+
+<!-- Main Page content - can be empty in this case -->
 <div id="page">
-  <!-- empty -->
+  <?php include "partials/askforname.php"; ?>
 </div>
 
+
+<!-- Different tabs as menu elements -->
 <nav id="menu">
   <div class="page" id="settings">
     <?php include "settings.php"; ?>
