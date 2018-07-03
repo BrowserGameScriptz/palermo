@@ -5,6 +5,7 @@ $_CONFIG = array();
 /* GENERAL SETTINGS */
 $_CONFIG['URL'] = "http://localhost:8080/palermo";
 $_CONFIG['GAMECODE_LENGTH'] = 6;
+$_CONFIG['PLAYERCODE_LENGTH'] = 18;
 
 /* DATABASE */
 $_CONFIG['DB_DB'] = "palermo";

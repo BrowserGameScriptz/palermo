@@ -63,11 +63,20 @@ class Game {
     $game_code = "";
 
     do {
-      $game_code = Toolbelt::genCode($_CONFIG['GAMECODE_LENGTH']);
+      $game_code = Toolbelt::genCode($_CONFIG['GAMECODE_LENGTH'], "0987654321");
       $result = palermoDb::get()->query("SELECT id FROM game WHERE code='$game_code'");
     } while($result->num_rows > 0);
 
     return $game_code;
+  }
+
+
+  /**
+   * Adds a player to the game
+   * @param Player $player The player to be added to the game
+   */
+  public function addPlayer(Player $player) {
+    palermoDb::get()->query("INSERT INTO player SET code='" . $player->code . "', game_id='" . $this->id . "', is_admin='0'");
   }
 }
 
