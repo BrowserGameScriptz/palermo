@@ -28,7 +28,7 @@
         </div>
 
         <div class="form-group">
-          <a href="<?= Template::getUrl("/game.php") ?>" class="form-control btn btn-dark btn-lg" id="button-gamecode">Neues Spiel</a>
+          <a href="javascript:onNewGameClick()" class="form-control btn btn-dark btn-lg" id="button-gamecode">Neues Spiel</a>
         </div>
 
         <small>Klicke auf Neues Spiel, um ein neues Spiel zu erstellen und anschließend deine Freunde einzuladen. Oder gib hier deinen Einladecode ein um einem Spiel beizutreten.</small>
@@ -44,7 +44,7 @@
             else
             {
               $('#button-gamecode').text("Neues Spiel");
-              $('#button-gamecode').attr("href", "<?= Template::getUrl("/game.php") ?>");
+              $('#button-gamecode').attr("href", "javascript:onNewGameClick()");
             }
           }
 
@@ -52,7 +52,12 @@
 
           function onEnterClick() {
             //send php enter request
-            alert("Du Hurensohn");
+            alert("D");
+          }
+
+          function onNewGameClick() {
+            //send php new game request
+            alert("D");
           }
         </script>
 
